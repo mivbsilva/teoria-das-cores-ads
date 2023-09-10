@@ -1,0 +1,151 @@
+/*
+Escolha das cores:
+#252B15;
+#3C4723;
+#7D9448;
+A escolha foi feita de acordo com o esquema de cores monocromático.
+Essa escolha foi feita pois o tema do jogo gira em torno de um ambiente dramático e
+melancólico, absorvido pela natureza após a humanidade entrar em contato com o vírus
+cordyceps. Assim, além do enredo do jogo acontecer dentro da natureza selvagem, temos
+a prória ideia do vírus, que me apontou para a cor verde, mas em tons escuros e sombrios.
+O verde muitas vezes é entendido também como sinal de perigo, e é bastante utilizado em personagens obscuros,
+como a cor da pele de bruxas. É também utilizado em poções venenosas, é encontrado em alimentos que já não são bons para consumo
+e é já é interpretado como sinal de atenção até mesmo pela cor da pele de animais selvagens e perigosos como cobras, ou até mesmo
+ameaças fora do planeta terra, como os alienígenas.
+A opção de ser uma paleta monocromática foi pelo fato de as paletas análogas ou complementares darem contraste mais forte
+entre as cores, sendo o contrário do que eu interpreto da atmosfera do tema, que é um mundo obscuro, monótono e hostil.
+Assim, escolhi dois tons de verde mais escuro e um mais claro para entrar em contraste com os outros dois. Mesmo o tom mais
+claro ainda não traz um verde alegre, e sim um verde acinzentado.
+*/
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #3C4723;
+}
+
+.cabecalho{
+    background-color: #252B15;
+}
+
+.cabecalho-lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo{
+    height: 100px;
+}
+
+.nav-lista{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.nav-lista_itens{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+}
+
+.nav-lista_itens a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-lista_itens a:hover{
+    text-decoration: underline;
+}
+
+.nav-lista_itens a:visited{
+    color: white;
+}
+
+.banner{
+    height: calc(100vh - 163px);
+    width: 100%;
+}
+
+.titulo{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0 0 0;
+}
+
+#sobre p{
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+    margin: 20px 15px 20px 15px;
+    line-height: 30px;
+    padding: 0 30px;
+}
+
+.personagens-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.personagem-card{
+    background-color:#7D9448;
+    height: 300px;
+    width: 300px;    
+    margin: 25px 40px 25px 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.personagem-card_foto{
+    height: 190px;
+    border-radius: 20px;
+}
+
+.personagem-card p{
+    font-size: 20px;
+    color: white;
+    padding: 25px 0 0 0;
+    text-transform: uppercase;
+}
+
+.serie-cartaz{
+    height: 450px;
+}
+
+.serie-conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 25px 30px;
+}
+
+.serie-conteudo p{
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+    margin: 20px 15px 20px 15px;
+    line-height: 30px; 
+}
+
+footer{
+    height: 50px;
+    background-color:#252B15;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a:visited{
+    color: white;
+}
